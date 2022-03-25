@@ -8,7 +8,9 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "prettier": "prettier --config .prettierrc --write \"**/*.{js,md,mdx}\"",
-    "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,md,mdx}\""
+    "prettier:diff": "prettier --config .prettierrc --list-different \"**/*.{js,md,mdx}\"",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.63",
@@ -18,7 +20,8 @@
     "docusaurus-plugin-sass": "^0.1.10",
     "internaldocs-fb-helpers": "^1.1.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "prettier": "^2.0.2"
@@ -34,5 +37,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "snyk": true
 }
