@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@docusaurus/core > @babel/core > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/core > webpack-merge > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/core > html-webpack-plugin > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/core > webpack-bundle-analyzer > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - docusaurus-plugin-sass > node-sass > lodash:
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/core > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/preset-classic > @docusaurus/core > webpack-merge > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/preset-classic > @docusaurus/core > html-webpack-plugin > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/core > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/core > react-dev-utils > inquirer > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/preset-classic > @docusaurus/core > webpack-bundle-analyzer > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/core > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - docusaurus-plugin-sass > node-sass > sass-graph > lodash:
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/preset-classic > @docusaurus/theme-classic > @mdx-js/mdx > @babel/core > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/preset-classic > @docusaurus/core > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/preset-classic > @docusaurus/core > react-dev-utils > inquirer > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/preset-classic > @docusaurus/core > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/core > webpack-dev-server > portfinder > async > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - docusaurus-plugin-sass > node-sass > gaze > globule > lodash:
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/preset-classic > @docusaurus/core > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
+    - '@docusaurus/preset-classic > @docusaurus/core > webpack-dev-server > portfinder > async > lodash':
+        patched: '2022-03-25T21:30:39.652Z'
